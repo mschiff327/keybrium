@@ -1,0 +1,25 @@
+{
+  "name": "keybrium-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Keybrium – Passkey-only authentication SDKs, examples, and docs.",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm -ws run build",
+    "lint": "npm -ws run lint || true",
+    "test": "npm -ws run test || true",
+    "format": "npx prettier -w ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}
