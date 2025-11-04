@@ -15,10 +15,9 @@ for (const pkg of packages) {
       console.error(`✖ ${pkg}: dist/ missing expected build artifacts (.js and .d.ts)`);
       failed = true;
     } else {
-      // quick size sanity check
       const total = entries
-        .map(f => statSync(join(dist, f)).size)
-        .reduce((a,b)=>a+b,0);
+          .map(f => statSync(join(dist, f)).size)
+          .reduce((a,b)=>a+b,0);
       if (total < 200) {
         console.error(`✖ ${pkg}: dist/ looks suspiciously small (${total} bytes)`);
         failed = true;
