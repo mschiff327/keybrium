@@ -10,7 +10,8 @@
     "build": "npm -ws run build",
     "lint": "npm -ws run lint || true",
     "test": "npm -ws run test || true",
-    "format": "npx prettier -w ."
+    "format": "npx prettier -w .",
+    "verify:build": "node scripts/verify-build.mjs"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
