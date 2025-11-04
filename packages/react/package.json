@@ -15,5 +15,17 @@
   },
   "peerDependencies": {
     "react": ">=18.0.0"
-  }
+  },
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mschiff327/keybrium.git"
+  },
+  "license": "MIT"
 }
