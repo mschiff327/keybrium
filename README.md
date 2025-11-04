@@ -1,13 +1,12 @@
-# Keybrium
+# Keybrium — Passkey-only auth (SDKs + examples)
 
-Passkey-only authentication for web and React Native (Expo).
+Packages:
+- `@keybrium/auth` — web/node SDK
+- `@keybrium/react` — React helpers
+- `@keybrium/react-native` — Expo RN (iOS-first)
 
-## Getting started
+Monorepo commands:
+- `npm run build` — build all packages
+- `npm test` — placeholder tests
 
-```bash
-npm ci
-npm run build
-
-Now end the heredoc:
-
-
+Docs: apps/docs (coming soon)
