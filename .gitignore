@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Expo/React-Native native folders (never commit)
+ios/
+android/
+
+# Env / secrets
+.env
+.env.*
+
+# JetBrains / IntelliJ
+.idea/
+*.iml
+out/
