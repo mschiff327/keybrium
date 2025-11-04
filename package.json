@@ -4,9 +4,7 @@
   "version": "0.1.0",
   "description": "Keybrium – Passkey-only authentication SDKs, examples, and docs.",
   "workspaces": [
-    "packages/*",
-    "apps/*",
-    "examples/*"
+    "packages/*"
   ],
   "scripts": {
     "build": "npm -ws run build",
