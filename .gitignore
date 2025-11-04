@@ -25,3 +25,12 @@ android/
 .idea/
 *.iml
 out/
+
+# Project archives
+keybrium.zip
+*.zip
+
+# Project archives
+keybrium.zip
+*.zip
+keybrium.zip
