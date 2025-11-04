@@ -1,0 +1,16 @@
+{
+  "name": "@keybrium/auth",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "lint": "echo 'no lint yet'",
+    "test": "echo 'no tests yet'"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
